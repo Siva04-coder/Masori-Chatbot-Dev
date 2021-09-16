@@ -453,9 +453,7 @@
             "Intent": "Side Effects",
             "patterns": [
                 "NUPLAZID Side effects",
-                "NUPLAZID Side effect",
-                
-                "safety faqs"
+                "NUPLAZID Side effect"                
             ],
             "responses": [
                 "Side Effects"
