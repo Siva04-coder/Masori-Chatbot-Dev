@@ -111,8 +111,11 @@ class response_generator:
                     response = response + '<div style="float:right"><button><a href="' + \
                         json_obj['visit_page']
                 else:
+                    if UIProtocolHostName.endswith('/') and json_obj['visit_page'].startswith('/'):
+                        UIProtocolHostName = UIProtocolHostName[:-1]
+                    
                     response = response + '<div style="float:right"><button><a href="' + \
-                        UIProtocolHostName[:-1] + json_obj['visit_page']
+                        UIProtocolHostName + json_obj['visit_page']
                 response = response + '" >Click here</a></button></div></div>'
                 isMoreInfo = True
 
