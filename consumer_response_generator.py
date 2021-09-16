@@ -112,7 +112,7 @@ class response_generator:
                         json_obj['visit_page']
                 else:
                     response = response + '<div style="float:right"><button><a href="' + \
-                        UIProtocolHostName + json_obj['visit_page']
+                        UIProtocolHostName[:-1] + json_obj['visit_page']
                 response = response + '" >Click here</a></button></div></div>'
                 isMoreInfo = True
 
