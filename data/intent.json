@@ -125,8 +125,7 @@
                 "frequent asked questions",
                 "answers",
                 "answer",
-                "questions",
-                "question",
+                
                 "faqs",
                 "faq",
                 "faq nuplazid",
@@ -220,6 +219,11 @@
             "patterns": [
                 "healthcare provider",
                 "consult healthcare provider",
+                
+                "information",
+                "questions",
+                "question",
+
                 "healthcare",
                 "speak with",
                 "ddg",
@@ -381,7 +385,7 @@
         {
             "Intent": "Contact Details",
             "patterns": [
-                "Acadia Connect",
+                
                 "about Acadia Pharmaceuticals",
                 "about Acadia Pharmaceutical",
                 "Pharmaceutical",
@@ -577,6 +581,7 @@
                 "swelling legs",
                 "swelling leg",
                 "swelling",
+                "report issue",
                 "Constipation",
                 "constipation nuplazid intake",
                 "getting pain",
@@ -589,7 +594,7 @@
             ]
         },
         {
-            "Intent": "Acadia Connect details like Cost and Insurance, Coverage Lookup links",
+            "Intent": "Support / Resources",
             "patterns": [
                 "NUPLAZID cost",
                 "Acadia Connect",
@@ -600,7 +605,8 @@
                 "cost",
                 "much NUPLAZID Cost",
                 "much NUPLAZID",
-                "cost nuplazid"
+                "cost nuplazid",
+                "Acadia Connect"
             ],
             "responses": [
                 "NUPLAZID cost"
@@ -609,7 +615,7 @@
         {
             "Intent": "Adverse Reaction",
             "patterns": [
-                "report issue",
+                
                 "medical concern",
                 "urgent help",
                 "immediate help",
@@ -687,7 +693,7 @@
                 "share information",
                 "share info",
 
-                "information",
+                
                 "Organizations supporting",
                 "Organizations supporting Parkinson's",
                 "Organizations supporting Parkinson's Patients"
