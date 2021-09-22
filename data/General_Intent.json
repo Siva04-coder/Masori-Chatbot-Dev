@@ -22,7 +22,7 @@
                 "what is your name"
             ],
             "responses": [
-                "I am SAM, the Search Assistant Manager. How can I help you today ?."
+                "I am SAM, the Search Assistant Manager. How can I help you today ?"
             ]
         },
         {
@@ -41,7 +41,7 @@
                 "ok"
             ],
             "responses": [
-                "Are there any other questions I can help you with?"
+                "Are there any other questions I can help you with ?"
             ]
         },
         {
@@ -69,7 +69,7 @@
                 "Super"
             ],
             "responses": [
-                "Thank you! I'm so glad I could help"
+                "Thank you! I'm so glad I could help."
             ]
         },
         {
@@ -98,7 +98,7 @@
                 "hi sam how are you"
             ],
             "responses": [
-                "I’m fine, thank you for asking. How can I help you?"
+                "I’m fine, thank you for asking. How can I help you ?"
             ]
         },
         {
@@ -108,7 +108,7 @@
                 "hi sam"
             ],
             "responses": [
-                "Hello there, How can I help you?"
+                "Hello there, How can I help you ?"
             ]
         },
         {
@@ -124,7 +124,7 @@
                 "favour"
             ],
             "responses": [
-                "That's what I'm here for! How can I help you?"
+                "That's what I'm here for! How can I help you ?"
             ]
         },
         {
