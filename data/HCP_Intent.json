@@ -30,7 +30,13 @@
                 "Visual hallucinations",
                 "PD related Hallucinations and Delusions",
                 "Delusions of jealousy",
-                "Delusions jealousy"
+                "Delusions jealousy",
+                "Patients",
+                "Patient Profile",
+                "Patient Stories",
+                "Patient Story",
+                "Patient History",
+                "PD psychosis with PD dementia"
             ],
             "responses": [
                 "About Parkinson's Disease Psychosis"
@@ -51,7 +57,7 @@
                 "Symptoms of Parkinson's Disease Psychosis",
                 "symptom Parkinson's",
                 "symptom Parkinsons",
-                
+
                 "PD symptom",
                 "PD symptoms",
                 "symptoms PDP",
@@ -96,7 +102,8 @@
                 "indication NUPLAZID",
                 "indications NUPLAZID",
                 "Learn NUPLAZID",
-                "NUPLAZID"
+                "NUPLAZID",
+                "FDA NUPLAZID"
             ],
             "responses": [
                 "Learn about NUPLAZID"
@@ -142,19 +149,15 @@
             "patterns": [
                 "NUPLAZID data",
                 "NUPLAZID efficacy data",
-                "FDA NUPLAZID",
+
                 "FDA approve",
                 "NUPLAZID FDA approved",
                 "NUPLAZID approved FDA",
                 "NUPLAZID pharmacology",
                 "motor functions",
                 "motor function",
-                "nonmotor functions",
-                "nonmotor function",
                 "Impact on motor functions",
-                "Impact motor functions",
-                "Impact on nonmotor functions",
-                "Impact nonmotor functions"
+                "Impact motor functions"
             ],
             "responses": [
                 "NUPLAZID FDA-approved therapy"
@@ -163,7 +166,7 @@
         {
             "Intent": "NUPLAZID Warnings",
             "patterns": [
-                
+
             ],
             "responses": [
                 "NUPLAZID Warnings"
@@ -185,7 +188,9 @@
                 "efficacy measuring",
                 "measuring",
                 "Clinical studies",
-                "Clinical data"
+                "Clinical data",
+                "Clinical trials experience",
+                "Clinical trial experience"
             ],
             "responses": [
                 "NUPLAZID efficacy"
@@ -234,10 +239,6 @@
         {
             "Intent": "Medical Information",
             "patterns": [
-                "common adverse reactions",
-                "common adverse reaction",
-                "Adverse reaction",
-                "Adverse reactions",
                 "Adverse",
                 "Common Adverse"
             ],
@@ -298,7 +299,16 @@
                 "NUPLAZID precaution",
                 "NUPLAZID warning and precaution",
                 "NUPLAZID precautions",
-                "NUPLAZID warning and precautions"
+                "NUPLAZID warning and precautions",
+                "Adverse Reaction",
+                "Adverse Reactions",
+                "Adverse Effect",
+                "Side Effect",
+                "Side Effects",
+                "Common Side Effect",
+                "Common Side Effects",
+                "Common adverse reaction",
+                "Common adverse reactions"
             ],
             "responses": [
                 "NUPLAZID important safety information"
@@ -319,7 +329,8 @@
                 "Vitro",
                 "Mechanism of action NUPLAZID",
                 "Mechanism action NUPLAZID",
-                "Mechanism action"
+                "Mechanism action",
+                "Drug classification"
             ],
             "responses": [
                 "About MOA"
@@ -480,7 +491,7 @@
                 "much NUPLAZID",
                 "NUPLAZID enrollment form",
                 "NUPLAZID drug classification",
-                "drug classification",
+
                 "NUPLAZID black box warning",
                 "NUPLAZID pharmacy",
                 "prescription process",
@@ -547,8 +558,6 @@
                 "Reporting Adverse reactions",
                 "Reporting Adverse reaction",
                 "Reporting",
-                "Adverse reaction",
-                "Adverse reactions",
                 "Report Adverse reactions",
                 "Report Adverse reaction",
                 "Report Adverse event",
@@ -557,8 +566,6 @@
                 "Report Adverse effects",
                 "Adverse event",
                 "Adverse events",
-                "Adverse effect",
-                "Adverse effects",
                 "Reporting Adverse event",
                 "Reporting Adverse events",
                 "Reporting Adverse effect",
@@ -607,18 +614,6 @@
             ]
         },
         {
-            "Intent": "General Information",
-            "patterns": [
-                
-                "Clinical trials experience",
-                "Clinical trial experience"
-                
-            ],
-            "responses": [
-                "Placebo controlled studies"
-            ]
-        },
-        {
             "Intent": "Acadia Connect Representative Contact Details",
             "patterns": [
                 "Formulary Lookup",
@@ -631,7 +626,17 @@
                 "someone enroll acadia connect",
                 "enroll acadia connect",
                 "acadia connect",
-                "Caregiver support"
+                "Caregiver support",
+                "In network",
+                "Walgreens",
+                "CVS",
+                "Walmart",
+                "Accredo",
+                "Advanced Care Scripts",
+                "Humana",
+                "EHR",
+                "Pharmacy",
+                "treatment service request form"
             ],
             "responses": [
                 "Acadiaconnect details"
