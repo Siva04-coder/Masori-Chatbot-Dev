@@ -42,8 +42,6 @@
                 "cause of Parkinson's disease",
                 "cause of Parkinson's disease Psychosis",
                 "Parkinson's condition",
-                "manage Parkinson's disease",
-                "manage pd",
                 "manage pdp"
             ],
             "responses": [
@@ -84,20 +82,18 @@
                 "NUPLAZID help",
                 "help NUPLAZID",
                 "Indication nuplazid",
-                
-                
                 "indication usage",
                 "dosage nuplazid",
                 "dosage administration",
                 "Dosing",
                 "Dosage Forms",
-                
+                "NUPLAZID dosage options",
+                "NUPLAZID dosage option",
+                "dosage",
+                "dosage information",
                 "nuplazid medicine",
                 "Nuplazid Indication",
                 "Indication",
-                
-                "treatment Parkinsons disease",
-                
                 "treatment pdp",
                 "treatment"
             ],
@@ -125,20 +121,14 @@
                 "frequent asked questions",
                 "answers",
                 "answer",
-                
+                "questions",
+                "question",
                 "faqs",
                 "faq",
                 "faq nuplazid",
-                
                 "faqs nuplazid",
-                
-                
                 "frequently asked question nuplazid",
-                
                 "frequently asked questions nuplazid",
-                
-                
-                
                 "getting NUPLAZID",
                 "get NUPLAZID"
             ],
@@ -149,9 +139,6 @@
         {
             "Intent": "NUPLAZID Clinical Trial",
             "patterns": [
-                
-                
-                "NUPLAZID Parkinsons",
                 "Clinical data",
                 "Clinical results",
                 "Clinical trial results",
@@ -175,8 +162,6 @@
                 "cause of Parkinsons diseases",
                 "Parkinson condition",
                 "Parkinson's condition",
-                "management of Parkinson",
-                "management of Parkinson's",
                 "Learn about Parkinson disease",
                 "Learn about Parkinson's disease"
             ],
@@ -219,11 +204,6 @@
             "patterns": [
                 "healthcare provider",
                 "consult healthcare provider",
-                
-                "information",
-                "questions",
-                "question",
-
                 "healthcare",
                 "speak with",
                 "ddg",
@@ -253,12 +233,8 @@
             "Intent": "About Parkinson's Disease",
             "patterns": [
                 "Parkinson condition",
-                "management of Parkinson",
-                
                 "Learn about Parkinson disease",
                 "Parkinson's condition",
-                "management of Parkinson's",
-
                 "Learn about Parkinson's disease"
             ],
             "responses": [
@@ -298,8 +274,6 @@
                 "Parkinson's delusions",
                 "Parkinson's induced delusions",
                 "Parkinson's delusion",
-                "related hallucination & delusion",
-                "related hallucinations & delusions",
                 "delusion",
                 "delusions",
                 "NUPLAZID PD-related Delusions",
@@ -362,7 +336,6 @@
                 "contact",
                 "company address",
                 "company contact",
-                "company connect",
                 "telephone number call",
                 "telephone number",
                 "contact details",
@@ -385,7 +358,7 @@
         {
             "Intent": "Contact Details",
             "patterns": [
-                
+
                 "about Acadia Pharmaceuticals",
                 "about Acadia Pharmaceutical",
                 "Pharmaceutical",
@@ -408,19 +381,13 @@
                 "prescription",
                 "NUPLAZID prescription",
                 "prescription nuplazid",
-                
-                
                 "nuplazid capsule form",
-                
-                "nuplazid food",
                 "contraindications nuplazid",
                 "contraindication nuplazid",
                 "contraindications",
                 "contraindication",
-                
                 "full Prescribing Information",
                 "drug interactions",
-                
                 "Recommended dose",
                 "Recommend dose"
             ],
@@ -429,39 +396,14 @@
             ]
         },
         {
-            "Intent": "Prescribe Information",
-            "patterns": [
-                "NUPLAZID dosage options",
-                "NUPLAZID dosage option",
-                
-                "dosage",
-                "dosage information"
-            ],
-            "responses": [
-                "NUPLAZID dosage options"
-            ]
-        },
-        {
             "Intent": "Taking NUPLAZID",
             "patterns": [
                 "Taking NUPLAZID",
                 "Take NUPLAZID",
-                "NUPLAZID effective",
-                "effective NUPLAZID",
-                "effective"
+                "Efficacy Info"
             ],
             "responses": [
                 "Taking NUPLAZID"
-            ]
-        },
-        {
-            "Intent": "Side Effects",
-            "patterns": [
-                "NUPLAZID Side effects",
-                "NUPLAZID Side effect"                
-            ],
-            "responses": [
-                "Side Effects"
             ]
         },
         {
@@ -476,7 +418,6 @@
                 "disturb",
                 "disturbed",
                 "Product issue",
-                "Product issues",
                 "Product concern",
                 "Product concerns",
                 "Medical Information",
@@ -503,8 +444,6 @@
                 "safety information NUPLAZID",
                 "safety informations NUPLAZID",
                 "NUPLAZID safety",
-                "NUPLAZID safe",
-                "safe NUPLAZID",
                 "warnings",
                 "warning",
                 "Warnings Precautions",
@@ -513,12 +452,13 @@
                 "safety FAQs",
                 "common side effects",
                 "common side effect",
-                
                 "Side effect",
                 "Side effects",
                 "interactions",
                 "interaction",
-                "boxed warning"
+                "boxed warning",
+                "NUPLAZID Side effects",
+                "NUPLAZID Side effect"
             ],
             "responses": [
                 "Safety Information"
@@ -528,7 +468,6 @@
             "Intent": "Important Safety Information",
             "patterns": [
                 "Medwatch",
-                "ISI",
                 "1-800-FDA-1088",
                 "reporting side effects",
                 "report side effects",
@@ -581,7 +520,6 @@
                 "swelling legs",
                 "swelling leg",
                 "swelling",
-                "report issue",
                 "Constipation",
                 "constipation nuplazid intake",
                 "getting pain",
@@ -594,7 +532,7 @@
             ]
         },
         {
-            "Intent": "Support / Resources",
+            "Intent": "Acadia Connect details like Cost and Insurance, Coverage Lookup links",
             "patterns": [
                 "NUPLAZID cost",
                 "Acadia Connect",
@@ -605,8 +543,7 @@
                 "cost",
                 "much NUPLAZID Cost",
                 "much NUPLAZID",
-                "cost nuplazid",
-                "Acadia Connect"
+                "cost nuplazid"
             ],
             "responses": [
                 "NUPLAZID cost"
@@ -615,16 +552,14 @@
         {
             "Intent": "Adverse Reaction",
             "patterns": [
-                
+                "report issue",
                 "medical concern",
                 "urgent help",
                 "immediate help",
                 "urgent",
                 "issues",
                 "concerns",
-                "product issue",
                 "product issues"
-                
             ],
             "responses": [
                 "Adverse Reaction"
@@ -670,9 +605,10 @@
                 "insurance",
                 "community support",
                 "parkinson's patient support",
-                
+                "parkinsons patient support",
                 "more nuplazid",
                 "parkinson's support community",
+                "parkinsons support community",
                 "pdp support community"
             ],
             "responses": [
@@ -686,14 +622,12 @@
                 "copay",
                 "Support",
                 "care cordinator",
-                "use NUPLAZID",
                 "NUPLAZID usage",
                 "additional information",
                 "additional info",
                 "share information",
                 "share info",
-
-                
+                "information",
                 "Organizations supporting",
                 "Organizations supporting Parkinson's",
                 "Organizations supporting Parkinson's Patients"
@@ -732,6 +666,24 @@
             ],
             "responses": [
                 "Patient Enrollment Form"
+            ]
+        },
+        {
+            "Intent": "HCPFinder",
+            "patterns": [
+                "locate a doctor",
+                "locate a parkinson's disease specialist",
+                "locate a pd specialist",
+                "find a doctor",
+                "find a parkinson's disease specialist",
+                "find a pd specialist",
+                "doctor near me",
+                "parkinson's disease specialist near me",
+                "parkinsons disease specialist near me",
+                "pd specialist near me"
+            ],
+            "responses": [
+                "HCPFinder"
             ]
         }
     ]
