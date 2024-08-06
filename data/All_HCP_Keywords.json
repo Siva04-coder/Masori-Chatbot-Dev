@@ -7,6 +7,8 @@
 
         "PD Psychosis",
 
+        "PD Psychosis Conversations Video",
+
         "Hallucinations",
         "Humana",
         "Visual hallucinations",
@@ -285,6 +287,9 @@
         "Payment assistant",
 
         "Coverage financial assistance",
+
+        "Acadia Connect Video",
+
         "Acadia connect contact information",
         "Accredo",
         "Forms",
@@ -387,6 +392,18 @@
 
         "QT",
         "QT Interval Prolongation",
-        "QT Interval"
+        "QT Interval",
+
+        "Real-World Evidence", 
+        "All-Cause Mortality data",
+        "Phase IV data", 
+        "Mosholder Study", 
+        "Layton study",
+
+        "Expert Perspective Videos", 
+        "Specialist Videos",
+        "Initiating Treatment Video",
+        "Evidence for NUPLAZID Video", 
+        "Treating PD-related hallucinations and delusions in the LTC Setting Video"
     ]
 }

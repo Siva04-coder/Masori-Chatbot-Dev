@@ -641,6 +641,71 @@
             "responses": [
                 "Acadiaconnect details"
             ]
+        },
+        {
+            "Intent": "Real-World Evidence",
+            "patterns": [
+                "real-world evidence",
+                "phase IV data",
+                "layton study",
+                "real world data", 
+                "mortality data", 
+                "Mosholder Study", 
+                "retrospective analysis",
+                "Mosholder mortality study Nuplazid", 
+                "all cause mortality Nuplazid Mosholder study", 
+                "Mortality risk Nuplazid Mosholder study info", 
+                "Nuplazid versus atypical antipsychotics Mosholder study", 
+                "Nuplazid vs quetiapine Mosholder study", 
+                "nuplazid vs non-quetiapine Mosholder study", 
+                "Mosholder mortality study design Nuplazid", 
+                "all cause mortality Mosholder study Nuplazid", 
+                "Mosholder mortality study",
+                "Mosholder mortality study and antipsychotics and Nuplazid", 
+                "Mosholder study antipsychotics Nuplazid", 
+                "Layton Mortality study Nuplazid", 
+                "all cause mortality Layton study Nuplazid", 
+                "Layton mortality study", 
+                "Layton mortality study and antipsychotics and Nuplazid", 
+                "Layton study antipychotics Nuplazid", 
+                "all cause mortality Nuplazid Layton study"
+            ],
+            "responses": [
+                "Real-World Evidence"
+            ]
+        },
+        {
+            "Intent": "Expert Perspectives",
+            "patterns": [
+                "pd psychosis conversations video",
+                "evidence for nuplazid video",
+                "acadia connect video",
+                "acadia connect videos",
+                "treating pd-related hallucinations and delusions in the ltc setting video",
+                "video", 
+                "videos", 
+                "treatment video", 
+                "treatment videos", 
+                "nuplazid video", 
+                "nuplazid videos", 
+                "expert perspective video", 
+                "expert perspective videos", 
+                "treating",
+                "treating pd video", 
+                "treating pd videos", 
+                "treating Parkinsons",
+                "Parkinsons disease video",
+                "Parkinsons disease videos",
+                "treating Parkinsons disease",
+                "treating Parkinsons disease video", 
+                "treating Parkinsons disease videos",  
+                "specialist video", 
+                "specialist videos", 
+                "expert perspectives"
+            ],
+            "responses": [
+                "Expert Perspectives"
+            ]
         }
     ]
 }
