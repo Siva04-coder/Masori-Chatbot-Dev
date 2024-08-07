@@ -79,6 +79,9 @@ class response_finder:
             # master = self.master_intent_entity
             corpus = self.website_data
 
+            if "mortality rate" in str(chat_message).lower():
+                chat = ''
+
             # for chat in chats:
             #     if chat != '':
             #         chat.replace("'", "\'")
