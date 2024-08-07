@@ -81,6 +81,8 @@ class response_finder:
 
             if "mortality rate" in str(chat_message).lower():
                 chat = ''
+            if "antispychotics" in str(chat_message).lower():
+                chat = ''
 
             # for chat in chats:
             #     if chat != '':
